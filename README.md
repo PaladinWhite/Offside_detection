@@ -29,11 +29,24 @@ To run this code you should have the dataset. You can follow one of this methods
 
    <img width="539" alt="image" src="https://github.com/user-attachments/assets/d8f1463a-8ea9-44bc-b038-c4ec3b9d62d0">
 
+   with:
+
+   ```sh
+      /content/drive/MyDrive/<YOUR_FOLDERS>/Dataset
+   ```
+
    **Attention** : don't run the cell **SPLIT DATASET**, because your dataset already splitted!
 
    3.2 In DL based notebook susbtitute:
 
    <img width="539" alt="image" src="https://github.com/user-attachments/assets/c08d135d-d5d7-4dc8-b89c-6c0baf43bb86">
+
+   with:
+   ```sh
+   /content/drive/MyDrive/<YOUR_FOLDERS>/Training
+   /content/drive/MyDrive/<YOUR_FOLDERS>/Validation
+   /content/drive/MyDrive/<YOUR_FOLDERS>/Test
+   ```
 
 ## Method 2
 1. Open the notebook **Dataset.ipynb**
@@ -41,5 +54,21 @@ To run this code you should have the dataset. You can follow one of this methods
 
    <img width="517" alt="image" src="https://github.com/user-attachments/assets/8c16b965-f9c7-47e6-9cf2-96bdeb15950a">
 
+   substituiting the path with:
+
+   ```sh
+   /content/drive/MyDrive/<YOUR_FOLDERS>/Dataset
+   ```
+
 3. Generate the dataset, and use this path in  CV based to split it.
+4. Perform the point 3 in the **Method 1**, and in **Computer_Vision_based.ipynb** substitute also:
+   <img width="1022" alt="image" src="https://github.com/user-attachments/assets/b03e6314-0655-4f60-8c88-02210ba46823">
+
+   in the cell **SPLIT DATASET** to split, with:
+   ```sh
+   /content/drive/MyDrive/<YOUR_FOLDERS>/Training
+   /content/drive/MyDrive/<YOUR_FOLDERS>/Validation
+   /content/drive/MyDrive/<YOUR_FOLDERS>/Test
+   ```
+
 
